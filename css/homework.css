@@ -1,33 +1,50 @@
-body{
+body{	
 	background-color:rgba(55,55,55, 0.1);
 	margin:0;
+	padding: 0;
 }
-
 a{
 	text-decoration: none;
 	color: navy;
 }
-
-h1.class-post{
+i{
+	font-size: 200%;
+	text-align: center;
+}
+h1.content{
 	font-size: 150%;
+	font-weight: 800;
+	margin-bottom: -10px;
 }
-h2.class-post {
-	font-size: 125%;
+h2.content {
+	font-size: 115%;
+	font-weight: 800;
+	margin: 20px 0 20px;
 }
-
-img.displayed {	/*центрирование картинки*/
+img.displayed {	
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-bottom: 10px;
+ }
+ul.horizontal li{
+ 	display: inline;
+ 	padding: 10px;
+ }
+
+/*Main part contain css for conten*/
+
+.class-content{
+	margin: 20px;
+}
 
 #id-header{
 	width: 100%;
-	height: 90px;
 	background-color: white;
 	text-align: center;
 	vertical-align: middle;
 	margin-bottom:20px;
-	line-height: 90px;
+	line-height: 100px;
 }
 
 #id-footer{
@@ -36,7 +53,7 @@ img.displayed {	/*центрирование картинки*/
 	bottom: 0;
 	background-color: rgba(55,55,55, 0.15);
 	text-align: center;	
-	line-height: 100px;
+	line-height: 50px;
 }
 
 .right-sidebar{
@@ -46,19 +63,9 @@ img.displayed {	/*центрирование картинки*/
 }
 .sidebar-box{
 	background-color: white;
-	text-align: center;
-	margin-top: 10px;
+	text-align: left;
+	margin-bottom: 10px;
 	padding: 10px;
-}
-
-.class-BackGround{
-	background-color: #EAEAEA;
-	width: 100%;
-	height:100%;
-}
-
-.class-content{
-	margin: 20px;
 }
 
 .class-post{
@@ -67,7 +74,6 @@ img.displayed {	/*центрирование картинки*/
 	height: auto;
 	background-color: white;
 	text-align: left;
-
+	padding: 10px;
+	margin-bottom: 10px; 
 }
-
-
